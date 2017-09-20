@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+
+.circleRule, .circleBox .circleMain, .circleBox .circle {
+  height: 70.8px;
+  width: 70.8px;
+  border-radius: 50%; }
+
+.circleBox {
+  height: 354px;
+  width: 354px;
+  position: relative;
+  border: 2px solid #F2C777; }
+  .circleBox .circleMain {
+    background-color: #024959;
+    position: absolute;
+    left: 464.6px;
+    bottom: 141.6px; }
+  .circleBox .circle {
+    background-color: #F24738;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .circleBox .first {
+    position: absolute;
+    left: 764.6px;
+    bottom: 159.3px; }
+  .circleBox .second {
+    position: absolute;
+    left: 164.6px;
+    bottom: 265.5px; }
+  .circleBox .third {
+    position: absolute;
+    left: 614.6px;
+    bottom: 279.66px; }
+  .circleBox .fourth {
+    position: absolute;
+    left: 744.6px;
+    bottom: 17.7px; }
+  .circleBox .fifth {
+    position: absolute;
+    left: 164.6px;
+    bottom: 53.1px; }
+
+/*# sourceMappingURL=main.css.map */

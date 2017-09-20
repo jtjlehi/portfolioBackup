@@ -1,0 +1,46 @@
+$boxWidth: 354px;
+$boxHeight: 1000px;
+$circleDiameter: $boxWidth * .2;
+@mixin circlePosition($x, $y){
+  position: absolute;
+  left: $x * $boxHeight - ($circleDiameter * .5);
+  bottom: $y * $boxWidth - ($circleDiameter * .5);
+}
+.circleRule{
+  height: $circleDiameter;
+  width: $circleDiameter;
+  border-radius: 50%;
+}
+.circleBox{
+  height: $boxWidth;
+  width: $boxWidth;
+  position: relative;
+  border: 2px solid $secondaryCream;
+  .circleMain{
+    @extend .circleRule;
+    background-color: $backgroundBlue;
+    @include circlePosition(.5, .5);
+  }
+  .circle{
+    @extend .circleRule;
+    background-color: $primaryLightRed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .first{
+    @include circlePosition(.8, .55);
+  }
+  .second{
+    @include circlePosition(.2, .85);
+  }
+  .third{
+    @include circlePosition(.65, .89);
+  }
+  .fourth{
+    @include circlePosition(.78, .15);
+  }
+  .fifth{
+    @include circlePosition(.2, .25);
+  }
+}
