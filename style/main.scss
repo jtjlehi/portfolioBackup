@@ -1,14 +1,83 @@
+@import "animation";
 $backgroundBlue: #024959;
 $textBlue: #092140;
 $secondaryCream: #F2C777;
 $primaryDarkRed: #BF2A2A;
 $primaryLightRed: #F24738;
 
-body{
+html, body{
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
+  .front {
+    z-index: 2;
+  }
+  section.section0 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: $backgroundBlue;
+    .slideUp {
+      position: absolute;
+      top: 0;
+    }
+    .slideDown {
+      position: absolute;
+      bottom: 0;
+    }
+    .sideSliderCont {
+      width: 100%;
+      height: 0;
+      position: absolute;
+      top: 50%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .sideSlider {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 200%;
+      }
+      .slideLeft {
+        position: absolute;
+        left: -45%;
+        transform: rotate(90deg);
+      }
+      .slideRight {
+        position: absolute;
+        right: -45%;
+        transform: rotate(270deg);
+      }
+    }
+  }
+  section.sectionTest {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: $primaryDarkRed;
+  }
+  .focus{
+    top: 0;
+  }
+}
+
+button {
+  width: 100%;
+  cursor: pointer;
+}
+button:active {
+  -webkit-appearance: none;
+}
+.slider {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  border: none;
 }
 
 @import "circles";
