@@ -6,6 +6,88 @@
 .slider:hover {
   letter-spacing: 20px; }
 
+section {
+  transition-property: top, left;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0.37, 0.38, 0, 1); }
+
+section.section0 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #024959; }
+  section.section0 .slideUp {
+    position: absolute;
+    top: 0; }
+  section.section0 .slideDown {
+    position: absolute;
+    bottom: 0; }
+  section.section0 .sideSliderCont {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    section.section0 .sideSliderCont .sideSlider {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 200%; }
+    section.section0 .sideSliderCont .slideLeft {
+      position: absolute;
+      left: -45%;
+      transform: rotate(90deg); }
+    section.section0 .sideSliderCont .slideRight {
+      position: absolute;
+      right: -45%;
+      transform: rotate(270deg); }
+
+section.section0 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #024959; }
+  section.section0 .slideUp {
+    position: absolute;
+    top: 0; }
+  section.section0 .slideDown {
+    position: absolute;
+    bottom: 0; }
+  section.section0 .sideSliderCont {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    section.section0 .sideSliderCont .sideSlider {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 200%; }
+    section.section0 .sideSliderCont .slideLeft {
+      position: absolute;
+      left: -45%;
+      transform: rotate(90deg); }
+    section.section0 .sideSliderCont .slideRight {
+      position: absolute;
+      right: -45%;
+      transform: rotate(270deg); }
+
+section.sectionTest {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #BF2A2A; }
+
+.section404 {
+  background-color: #092140; }
+
 html, body {
   margin: 0;
   padding: 0;
@@ -13,46 +95,6 @@ html, body {
   height: 100%; }
   html .front, body .front {
     z-index: 2; }
-  html section.section0, body section.section0 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: #024959; }
-    html section.section0 .slideUp, body section.section0 .slideUp {
-      position: absolute;
-      top: 0; }
-    html section.section0 .slideDown, body section.section0 .slideDown {
-      position: absolute;
-      bottom: 0; }
-    html section.section0 .sideSliderCont, body section.section0 .sideSliderCont {
-      width: 100%;
-      height: 0;
-      position: absolute;
-      top: 50%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center; }
-      html section.section0 .sideSliderCont .sideSlider, body section.section0 .sideSliderCont .sideSlider {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        width: 200%; }
-      html section.section0 .sideSliderCont .slideLeft, body section.section0 .sideSliderCont .slideLeft {
-        position: absolute;
-        left: -45%;
-        transform: rotate(90deg); }
-      html section.section0 .sideSliderCont .slideRight, body section.section0 .sideSliderCont .slideRight {
-        position: absolute;
-        right: -45%;
-        transform: rotate(270deg); }
-  html section.sectionTest, body section.sectionTest {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: #BF2A2A; }
-  html .focus, body .focus {
-    top: 0; }
 
 button {
   width: 100%;
@@ -68,6 +110,20 @@ button:active {
   font-family: sans-serif;
   letter-spacing: 5px;
   border: none; }
+
+section {
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+
+section.focus {
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  box-shadow: 0 0 100px 5px #000; }
+
+section.last {
+  z-index: 1; }
 
 .circleRule, .circleBox .circleMain, .circleBox .circle {
   height: 70.8px;

@@ -6,3 +6,8 @@
 .slider:hover {
   letter-spacing: 20px;
 }
+section {
+  transition-property: top, left;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0.37, 0.38, 0, 1);
+}

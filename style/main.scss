@@ -1,66 +1,18 @@
 @import "animation";
-$backgroundBlue: #024959;
-$textBlue: #092140;
-$secondaryCream: #F2C777;
-$primaryDarkRed: #BF2A2A;
-$primaryLightRed: #F24738;
+@import "landingSection";
+@import "variables";
+@import "landingSection";
+@import "testSection";
+@import "404page";
 
 html, body{
+  //overflow: hidden;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   .front {
     z-index: 2;
-  }
-  section.section0 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: $backgroundBlue;
-    .slideUp {
-      position: absolute;
-      top: 0;
-    }
-    .slideDown {
-      position: absolute;
-      bottom: 0;
-    }
-    .sideSliderCont {
-      width: 100%;
-      height: 0;
-      position: absolute;
-      top: 50%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      .sideSlider {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        width: 200%;
-      }
-      .slideLeft {
-        position: absolute;
-        left: -45%;
-        transform: rotate(90deg);
-      }
-      .slideRight {
-        position: absolute;
-        right: -45%;
-        transform: rotate(270deg);
-      }
-    }
-  }
-  section.sectionTest {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: $primaryDarkRed;
-  }
-  .focus{
-    top: 0;
   }
 }
 
@@ -79,5 +31,18 @@ button:active {
   letter-spacing: 5px;
   border: none;
 }
-
+section {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+section.focus {
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  box-shadow: 0 0 100px 5px #000;
+}
+section.last {
+  z-index: 1;
+}
 @import "circles";
