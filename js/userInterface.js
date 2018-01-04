@@ -3,6 +3,7 @@ import {addScrollToElement} from "./animation/scroll.js";
 import {initWindowScroll} from "./animation/scroll.js";
 import {transition} from './animation/transition.js'
 import {initWindow} from "./window.js";
+import { TicTacToe } from '../ticTacToeComponent/component.js';
 
 export let els = {};
 let load = function () {
@@ -19,6 +20,8 @@ let load = function () {
     $('.slideRight.contactNavBtn').click(function () {
         transition.right('section404', $('.section0'));
     });
+    //define custom elements
+    customElements.define('tic-tac-toe', TicTacToe);
 };
 load();
 window.addEventListener('mousewheel', function (event) {
