@@ -1,0 +1,169 @@
+.slider {
+  transition-property: letter-spacing;
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out; }
+
+.slider:hover {
+  letter-spacing: 20px; }
+
+section {
+  transition-property: top, left;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0.37, 0.38, 0, 1); }
+
+section.section0 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #024959; }
+  section.section0 .slideUp {
+    position: absolute;
+    top: 0; }
+  section.section0 .slideDown {
+    position: absolute;
+    bottom: 0; }
+  section.section0 .sideSliderCont {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    section.section0 .sideSliderCont .sideSlider {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 200%; }
+    section.section0 .sideSliderCont .slideLeft {
+      position: absolute;
+      left: -45%;
+      transform: rotate(90deg); }
+    section.section0 .sideSliderCont .slideRight {
+      position: absolute;
+      right: -45%;
+      transform: rotate(270deg); }
+
+section.section0 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #024959; }
+  section.section0 .slideUp {
+    position: absolute;
+    top: 0; }
+  section.section0 .slideDown {
+    position: absolute;
+    bottom: 0; }
+  section.section0 .sideSliderCont {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    section.section0 .sideSliderCont .sideSlider {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 200%; }
+    section.section0 .sideSliderCont .slideLeft {
+      position: absolute;
+      left: -45%;
+      transform: rotate(90deg); }
+    section.section0 .sideSliderCont .slideRight {
+      position: absolute;
+      right: -45%;
+      transform: rotate(270deg); }
+
+section.sectionTest {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #BF2A2A; }
+
+.section404 {
+  background-color: #092140; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+  html .front, body .front {
+    z-index: 2; }
+
+button {
+  width: 100%;
+  cursor: pointer; }
+
+button:active {
+  -webkit-appearance: none; }
+
+.slider {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  border: none; }
+
+section {
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+
+section.focus {
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  box-shadow: 0 0 100px 5px #000; }
+
+section.last {
+  z-index: 1; }
+
+.circleRule, .circleBox .circleMain, .circleBox .circle {
+  height: 70.8px;
+  width: 70.8px;
+  border-radius: 50%; }
+
+.circleBox {
+  height: 354px;
+  width: 354px;
+  position: relative;
+  border: 2px solid #F2C777; }
+  .circleBox .circleMain {
+    background-color: #024959;
+    position: absolute;
+    left: 464.6px;
+    bottom: 141.6px; }
+  .circleBox .circle {
+    background-color: #F24738;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .circleBox .first {
+    position: absolute;
+    left: 764.6px;
+    bottom: 159.3px; }
+  .circleBox .second {
+    position: absolute;
+    left: 164.6px;
+    bottom: 265.5px; }
+  .circleBox .third {
+    position: absolute;
+    left: 614.6px;
+    bottom: 279.66px; }
+  .circleBox .fourth {
+    position: absolute;
+    left: 744.6px;
+    bottom: 17.7px; }
+  .circleBox .fifth {
+    position: absolute;
+    left: 164.6px;
+    bottom: 53.1px; }
+
+/*# sourceMappingURL=main.css.map */
