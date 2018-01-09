@@ -3,7 +3,7 @@ import {addScrollToElement} from "./animation/scroll.js";
 import {initWindowScroll} from "./animation/scroll.js";
 import {transition} from './animation/transition.js'
 import {initWindow} from "./window.js";
-import { TicTacToe } from '../ticTacToeComponent/component.js';
+// import { TicTacToe } from '../ticTacToeComponent/component.js';
 // import { createComponent } from '../js/componentConstructor.js';
 import { loadComponents } from '../js/componentsLoader.js';
 
@@ -24,6 +24,10 @@ let load = function () {
     });
     //define custom elements
     loadComponents();
+    let content = document.querySelector('link[rel="import"]').import;
+    
+    let tmpl = content.querySelector('#tic-tac-toe-piece');
+    console.log(tmpl);
 };
 load();
 window.addEventListener('mousewheel', function (event) {

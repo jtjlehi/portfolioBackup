@@ -3,7 +3,7 @@
         "target": "es6",
         "module": "es6",
         "sourceMap": false,
-        "outDir": "public/",
+        "outDir": "public/js/",
         "experimentalDecorators": true,
     },
     "include": [

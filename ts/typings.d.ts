@@ -1,3 +1,3 @@
 declare interface Element {
-    import: any;
+    import?: any;
 }
