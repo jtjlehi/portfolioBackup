@@ -4,6 +4,7 @@
         "module": "es6",
         "sourceMap": false,
         "outDir": "public/",
+        "experimentalDecorators": true,
     },
     "include": [
         "ts/**/*"
