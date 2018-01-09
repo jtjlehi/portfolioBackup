@@ -2,7 +2,9 @@
     "compilerOptions": {
         "target": "es6",
         "module": "commonjs",
-        "sourceMap": true
+        "sourceMap": true,
+        "outDir": "public/js",
+        "mapRoot": "public/js/jsMaps"
     },
     "include": [
         "ts/**/*"
