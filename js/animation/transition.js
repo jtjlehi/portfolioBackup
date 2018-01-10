@@ -1,4 +1,4 @@
-import {windowRef} from "../window.js";
+import { windowRef } from "../window.js";
 
 function transitionFactory(distance, orientation) {
     if(orientation === 0) {
