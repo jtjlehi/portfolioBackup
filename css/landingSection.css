@@ -1,0 +1,35 @@
+section.section0 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #024959; }
+  section.section0 .slideUp {
+    position: absolute;
+    top: 0; }
+  section.section0 .slideDown {
+    position: absolute;
+    bottom: 0; }
+  section.section0 .sideSliderCont {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    section.section0 .sideSliderCont .sideSlider {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 200%; }
+    section.section0 .sideSliderCont .slideLeft {
+      position: absolute;
+      left: -45%;
+      transform: rotate(90deg); }
+    section.section0 .sideSliderCont .slideRight {
+      position: absolute;
+      right: -45%;
+      transform: rotate(270deg); }
+
+/*# sourceMappingURL=landingSection.css.map */

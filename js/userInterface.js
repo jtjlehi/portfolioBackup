@@ -8,17 +8,20 @@ export let els = {};
 let load = function () {
     initWindow();
     $('.slideDown.projectsNavBtn').click(function () {
-        transition.down('section404', $('.section0'));
+        transition.down('section404', $('.sectionHome'));
     });
     $('.slideUp.sterlingNavBtn').click(function () {
-        transition.up('section404', $('.section0'));
+        transition.up('section404', $('.sectionHome'));
     });
     $('.slideLeft.miscNavBtn').click(function () {
-        transition.left('section404', $('.section0'));
+        transition.left('section404', $('.sectionHome'));
     });
     $('.slideRight.contactNavBtn').click(function () {
-        transition.right('section404', $('.section0'));
+        transition.right('section404', $('.sectionHome'));
     });
+    $('.slideDown.homeNavBtn').click(function() {
+        transition.down('sectionHome', $('.sectionSterlingScholar'))
+    })
 };
 load();
 window.addEventListener('mousewheel', function (event) {
