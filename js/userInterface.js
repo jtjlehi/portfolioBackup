@@ -11,7 +11,7 @@ let load = function () {
         transition.down('section404', $('.sectionHome'));
     });
     $('.slideUp.sterlingNavBtn').click(function () {
-        transition.up('section404', $('.sectionHome'));
+        transition.up('sectionSterlingScholar', $('.sectionHome'));
     });
     $('.slideLeft.miscNavBtn').click(function () {
         transition.left('section404', $('.sectionHome'));

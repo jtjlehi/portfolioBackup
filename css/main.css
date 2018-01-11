@@ -19,40 +19,46 @@ section.sectionHome {
   height: 100%;
   position: absolute;
   background-color: #024959; }
-  section.sectionHome .slideUp {
-    position: absolute;
-    top: 0; }
-  section.sectionHome .slideDown {
-    position: absolute;
-    bottom: 0; }
-  section.sectionHome .sideSliderCont {
-    width: 100%;
-    height: 0;
-    position: absolute;
-    top: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    section.sectionHome .sideSliderCont .sideSlider {
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      width: 200%; }
-    section.sectionHome .sideSliderCont .slideLeft {
-      position: absolute;
-      left: -45%;
-      transform: rotate(90deg); }
-    section.sectionHome .sideSliderCont .slideRight {
-      position: absolute;
-      right: -45%;
-      transform: rotate(270deg); }
 
 section.sectionTest {
   width: 100%;
   height: 100%;
   position: absolute;
   background-color: #BF2A2A; }
+
+section.sectionSterlingScholar {
+  background-color: #BF2A2A; }
+
+.slideUp {
+  position: absolute;
+  top: 0; }
+
+.slideDown {
+  position: absolute;
+  bottom: 0; }
+
+.sideSliderCont {
+  width: 100%;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .sideSliderCont .sideSlider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 200%; }
+  .sideSliderCont .slideLeft {
+    position: absolute;
+    left: -45%;
+    transform: rotate(90deg); }
+  .sideSliderCont .slideRight {
+    position: absolute;
+    right: -45%;
+    transform: rotate(270deg); }
 
 html, body {
   margin: 0;
