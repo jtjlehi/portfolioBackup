@@ -2,4 +2,20 @@
 
 section.sectionSterlingScholar {
     background-color: $primaryDarkRed;
+    .articleCont {
+        height: 80%;
+        width: 100%;
+        background-color: $secondaryCream;
+        margin-top: 50px;
+        article {
+            margin: 0 auto;
+            width: 100%;
+            height: 85%;
+        }
+        @media (min-width: 450px) {
+            article {
+                width: 70%;
+            }
+        }
+    }
 }
