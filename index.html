@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jared Jacobson||portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="mdl/material.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 <section class="sectionHome">
@@ -38,19 +37,27 @@
 </section>
 <section class="sectionTest"></section>
 <section class='sectionSterlingScholar focus'>
-    <div class='articleCont'>
+    <div class='topSeperator'>
+        <h2>Sterling Scholar</h2>
+    </div>
+    <div class='articleCont carousel slide' data-ride='cauresel'>
         <article class='mdl-card mdl-shadow--16dp'>
             <div class='mdl-card__title'></div>
             <div class='mdl-card__media'></div>
             <div class='mdl-card__supporting-text'></div>
         </article>
-        <div class='articleControls'>
-            
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="material-icons">keyboard_arrow_left</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="material-icons">keyboard_arrow_right</span>
+        </a>
     </div>
-    <button class="slider slideDown homeNavBtn">
+    <div class='bottomSeperator'>
+        <button class="slider slideDown homeNavBtn">
             Home
-    </button>
+        </button>
+    </div>
 </section>
 <section class="section404">
     404: Page not found
