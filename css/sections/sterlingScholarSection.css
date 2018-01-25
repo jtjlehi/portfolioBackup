@@ -12,17 +12,25 @@ section.sectionSterlingScholar {
     height: 80%;
     width: 100%;
     background-color: #f5e9d4; }
-    section.sectionSterlingScholar .articleCont article {
-      margin: 0 auto;
-      width: 100%;
-      height: 100%; }
-    @media (min-width: 450px) {
-      section.sectionSterlingScholar .articleCont article {
-        width: 70%; } }
-    section.sectionSterlingScholar .articleCont a {
-      color: #092140; }
+    section.sectionSterlingScholar .articleCont .carousel-inner {
+      height: 100%;
+      display: flex;
+      justify-content: center; }
+      section.sectionSterlingScholar .articleCont .carousel-inner .carousel-item {
+        height: 100%;
+        width: 100%; }
+        section.sectionSterlingScholar .articleCont .carousel-inner .carousel-item article {
+          margin: 0 auto;
+          width: 100%;
+          height: 100%; }
+        @media (min-width: 450px) {
+          section.sectionSterlingScholar .articleCont .carousel-inner .carousel-item article {
+            width: 70%; } }
   section.sectionSterlingScholar .bottomSeperator {
     width: 100%;
     height: 10%; }
+
+span.material-icon {
+  color: #092140; }
 
 /*# sourceMappingURL=sterlingScholarSection.css.map */

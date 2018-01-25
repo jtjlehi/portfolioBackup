@@ -16,22 +16,31 @@ section.sectionSterlingScholar {
         height: 80%;
         width: 100%;
         background-color: $secondaryCream;
-        article {
-            margin: 0 auto;
-            width: 100%;
+        .carousel-inner {
             height: 100%;
-        }
-        @media (min-width: 450px) {
-            article {
-                width: 70%;
+            display: flex;
+            justify-content: center;
+            .carousel-item {
+                height: 100%;
+                width: 100%;
+                article {
+                    margin: 0 auto;
+                    width: 100%;
+                    height: 100%;
+                }
+                @media (min-width: 450px) {
+                    article {
+                        width: 70%;
+                    }
+                }
             }
-        }
-        a {
-            color: $textBlue
         }
     }
     .bottomSeperator {
         width: 100%;
         height: 10%;
     }
+}
+span.material-icon {
+    color: $textBlue;
 }
