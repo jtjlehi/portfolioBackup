@@ -122,6 +122,12 @@ button:active {
   font-family: sans-serif;
   letter-spacing: 5px;
   border: none; }
+  .slider a {
+    color: white;
+    text-decoration: none; }
+  .slider a:hover {
+    color: white;
+    text-decoration: none; }
 
 section {
   width: 100%;
