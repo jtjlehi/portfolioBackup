@@ -8,7 +8,7 @@ export let els = {};
 let load = function () {
     initWindow();
     $('.slideDown.projectsNavBtn').click(function () {
-        transition.down('section404', $('.sectionHome'));
+        transition.down('sectionProject', $('.sectionHome'));
     });
     $('.slideUp.sterlingNavBtn').click(function () {
         transition.up('sectionSterlingScholar', $('.sectionHome'));
@@ -20,8 +20,8 @@ let load = function () {
         transition.right('section404', $('.sectionHome'));
     });
     $('.slideDown.homeNavBtn').click(function() {
-        transition.down('sectionHome', $('.sectionSterlingScholar'))
-    })
+        transition.down('sectionHome', $('.sectionSterlingScholar'));
+    });
 };
 load();
 window.addEventListener('mousewheel', function (event) {

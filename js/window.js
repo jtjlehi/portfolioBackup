@@ -37,4 +37,8 @@ export function initWindow() {
     window.addEventListener("optimizedResize", function() {
         windowRef.change();
     });
+    window.onhashchange = function(event) {
+        let currentPath = location.origin + location.pathname;
+        console.log(location);
+    }
 }

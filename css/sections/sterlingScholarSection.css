@@ -1,42 +1,47 @@
-section.sectionSterlingScholar {
+section.display {
   background-color: #BF2A2A; }
-  section.sectionSterlingScholar .topSeperator {
+  section.display .topSeperator {
     width: 100%;
     height: 10%; }
-    section.sectionSterlingScholar .topSeperator h2 {
+    section.display .topSeperator h2 {
       text-align: center;
       color: white;
       margin: 0;
       padding: 20px; }
-  section.sectionSterlingScholar .articleCont {
+  section.display .articleCont {
     height: 80%;
     width: 100%;
     background-color: #f5e9d4; }
-    section.sectionSterlingScholar .articleCont .carousel-inner {
+    section.display .articleCont .carousel-inner {
       height: 100%;
       display: flex;
       justify-content: center; }
-      section.sectionSterlingScholar .articleCont .carousel-inner .carousel-item {
+      section.display .articleCont .carousel-inner .carousel-item {
         height: 100%;
         width: 100%; }
-        section.sectionSterlingScholar .articleCont .carousel-inner .carousel-item article {
+        section.display .articleCont .carousel-inner .carousel-item article {
           margin: 0 auto;
           width: 100%;
           height: 100%; }
-          section.sectionSterlingScholar .articleCont .carousel-inner .carousel-item article div.mdl-card__supporting-text {
+          section.display .articleCont .carousel-inner .carousel-item article div.mdl-card__supporting-text {
             overflow: scroll;
             width: 100%; }
-            section.sectionSterlingScholar .articleCont .carousel-inner .carousel-item article div.mdl-card__supporting-text p {
+            section.display .articleCont .carousel-inner .carousel-item article div.mdl-card__supporting-text p {
               font-size: 20px;
               text-indent: 30px; }
-            section.sectionSterlingScholar .articleCont .carousel-inner .carousel-item article div.mdl-card__supporting-text p.noIndent {
+            section.display .articleCont .carousel-inner .carousel-item article div.mdl-card__supporting-text p.noIndent {
               text-indent: 0px; }
         @media (min-width: 450px) {
-          section.sectionSterlingScholar .articleCont .carousel-inner .carousel-item article {
+          section.display .articleCont .carousel-inner .carousel-item article {
             width: 70%; } }
-  section.sectionSterlingScholar .bottomSeperator {
+  section.display .bottomSeperator {
     width: 100%;
     height: 10%; }
+    section.display .bottomSeperator h2 {
+      text-align: center;
+      color: white;
+      margin: 0;
+      padding: 20px; }
 
 span.material-icons {
   color: #092140; }
