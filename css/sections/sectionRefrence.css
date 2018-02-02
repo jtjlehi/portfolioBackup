@@ -46,6 +46,10 @@ section.display {
               text-indent: 30px; }
             section.display .articleCont .carousel-inner .carousel-item article div.mdl-card__supporting-text p.noIndent {
               text-indent: 0px; }
+          section.display .articleCont .carousel-inner .carousel-item article div.mdl-card__media {
+            display: flex;
+            justify-content: center;
+            align-items: center; }
         @media (min-width: 450px) {
           section.display .articleCont .carousel-inner .carousel-item article {
             width: 70%; } }

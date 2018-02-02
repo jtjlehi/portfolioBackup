@@ -38,6 +38,11 @@ section.display {
                             text-indent: 0px;
                         }
                     }
+                    div.mdl-card__media {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
                 }
                 @media (min-width: 450px) {
                     article {
