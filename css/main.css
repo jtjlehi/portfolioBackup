@@ -64,6 +64,9 @@ section.display {
             justify-content: center;
             align-items: center;
             background-color: white; }
+          section.display .articleCont .carousel-inner .carousel-item article div.card-content-cont {
+            overflow: scroll;
+            width: 100%; }
         @media (min-width: 450px) {
           section.display .articleCont .carousel-inner .carousel-item article {
             width: 70%; } }

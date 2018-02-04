@@ -44,6 +44,10 @@ section.display {
                         align-items: center;
                         background-color: white;
                     }
+                    div.card-content-cont {
+                        overflow: scroll;
+                        width: 100%;
+                    }
                 }
                 @media (min-width: 450px) {
                     article {
