@@ -49,7 +49,8 @@ section.display {
           section.display .articleCont .carousel-inner .carousel-item article div.mdl-card__media {
             display: flex;
             justify-content: center;
-            align-items: center; }
+            align-items: center;
+            background-color: white; }
         @media (min-width: 450px) {
           section.display .articleCont .carousel-inner .carousel-item article {
             width: 70%; } }
