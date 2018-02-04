@@ -174,17 +174,17 @@
             <a href='/#home'>Home</a>
         </button>
     </div>
-    <div id='ProjectCarousel' class='articleCont carousel slide' data-interval='false' >
+    <div id='projectCarousel' class='articleCont carousel slide' data-interval='false' >
         <!-- items -->
         <div class='carousel-inner'>
-            <!-- About me -->
+            <!-- Github -->
             <div class='carousel-item active'>
                 <article class='mdl-card mdl-shadow--16dp'>
                     <div class='mdl-card__title mdl-shadow--2dp'>
                         <h2 class='mdl-card__title-text'>Check Me Out on GitHub</h2>
                     </div>
                     <div class='mdl-card__media'>
-                        <a href='https://github.com/jtjlehi'>
+                        <a href='https://github.com/jtjlehi' target="_blank" >
                             <img src="images/gitHubScreenShot.png" width="100%" >
                         </a>
                     </div>
@@ -192,18 +192,83 @@
                         <p>Take a look at all my repo's and see what kind of projects I'm working on, and have already finished.</p>
                     </div>
                     <div class='mdl-card__actions'>
-                        <button class='mdl-button mdl-js-button mdl-js-ripple-effect' >
-                            <a href='https://github.com/jtjlehi'>My Github</a>
-                        </button>
+                        <a href='https://github.com/jtjlehi' target="_blank" >
+                            <button class='mdl-button mdl-js-button mdl-js-ripple-effect' >
+                                My Github
+                            </button>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <!-- Bank App -->
+            <div class='carousel-item'>
+                <article class='mdl-card mdl-shadow--16dp'>
+                    <div class='mdl-card__title mdl-shadow--2dp'>
+                        <h2 class='mdl-card__title-text'>Bank App</h2>
+                    </div>
+                    <div class='mdl-card__supporting-text'>
+                        <p>The banking app was an application designed to keep track of transactions and interest for 3 different types of bank accounts. It did not take care of the verification or how the transfers take place. I did it to see a real-world application of Object Oriented Programming. I implemented the "Inheritance Pattern" by setting up a base bank account and extending it to the 3 base accounts so I didn't have to repeat much. The pattern did work for this kind of application, but the decorator pattern may have worked better for a larger scale version of the app because each account would only extend 1 level down from the base bank account class.</p>
+                        <p>I wrote this banking app using TypeScript and designed no user interface for it, to view and run the code follow the GitHub link below and run the compiled JavaScript in a Node.js environment.</p>
+                    </div>
+                    <div class='mdl-card__actions'>
+                        <a href='https://github.com/jtjlehi/bank-app' target="_blank" >
+                            <button class='mdl-button mdl-js-button mdl-js-ripple-effect' >
+                                Banking App
+                            </button>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <!-- Golf Scorecard -->
+            <div class='carousel-item'>
+                <article class='mdl-card mdl-shadow--16dp'>
+                    <div class='mdl-card__title mdl-shadow--2dp'>
+                        <h2 class='mdl-card__title-text'>JavaScript Golf Scorecard</h2>
+                    </div>
+                    <div class='mdl-card__media'>
+                        <a href='https://github.com/jtjlehi/golfScoreCard' target="_blank" >
+                            <img src="images/golfScorecard.png" width="100%" >
+                        </a>
+                    </div>
+                    <div class='mdl-card__supporting-text'>
+                        <p>I decided to make a golf scorecard for the challenge of the interface, and logic. I implemented jQuery into this program to make it a little easier but found the library difficult to use. I had intended on doing the whole project without a CSS library, but about halfway through the project, I decided it was a ridiculous endeavor and implemented Material Design Light, which is why the style is not uniform throughout the whole page. I intended on adding some cool features that other golf-scorecards lacked, but when I finally got the card working properly I decided not to. I learned through this experience that it is ok to use CSS libraries, and further cemented my dislike for jQuery.</p>
+                    </div>
+                    <div class='mdl-card__actions'>
+                        <a href='https://github.com/jtjlehi/golfScoreCard' target="_blank" >
+                            <button class='mdl-button mdl-js-button mdl-js-ripple-effect' >Source Code</button>
+                        </a>
+                        <a href='https://jtjlehi.github.io/golfScoreCard/' target="_blank" >
+                            <button class='mdl-button mdl-js-button mdl-js-ripple-effect' >Actual Scorecard</button>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <div class='carousel-item'>
+                <article class='mdl-card mdl-shadow--16dp'>
+                    <div class='mdl-card__title mdl-shadow--2dp'>
+                        <h2 class='mdl-card__title-text'></h2>
+                    </div>
+                    <div class='mdl-card__media'>
+                        <a href='https://github.com/jtjlehi' target="_blank" >
+                            <img src="#" width="100%" >
+                        </a>
+                    </div>
+                    <div class='mdl-card__supporting-text'>
+                        <p></p>
+                    </div>
+                    <div class='mdl-card__actions'>
+                        <a href='https://github.com/jtjlehi'>
+                            <button class='mdl-button mdl-js-button mdl-js-ripple-effect' ></button>
+                        </a>
                     </div>
                 </article>
             </div>
         </div>
         <!-- controls -->
-        <a class="carousel-control-prev" href="#projectScholarCarousel" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
             <span class="material-icons">keyboard_arrow_left</span>
         </a>
-        <a class="carousel-control-next" href="#projectScholarCarousel" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
             <span class="material-icons">keyboard_arrow_right</span>
         </a>
     </div>
