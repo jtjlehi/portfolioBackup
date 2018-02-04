@@ -22,6 +22,9 @@ let load = function () {
     $('.slideDown.homeNavBtn').click(function() {
         transition.down('sectionHome', $('.sectionSterlingScholar'));
     });
+    $('.slideUp.homeNavBtn').click(function() {
+        transition.up('sectionHome', $('.sectionProject'))
+    })
 };
 load();
 window.addEventListener('mousewheel', function (event) {
